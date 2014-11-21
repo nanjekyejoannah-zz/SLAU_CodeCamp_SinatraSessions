@@ -1,0 +1,9 @@
+<div >
+	
+	<ul>
+		<% @attendees.each do |f| %>
+		<li> Name : <%= f[:name] %></li>
+		<li> Course : <%= f[:course] %></li>
+		<% end %>
+	</ul>
+</div>
